@@ -1,0 +1,38 @@
+{
+  "name": "DownloadSorter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "cookies",
+    "tabs",
+    "activeTab",
+    "downloads",
+    "storage",
+    "declarativeNetRequest",
+    "scripting",
+    "notifications"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "action": {
+    "default_icon": {
+      "16": "favicon.png",
+      "32": "favicon.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "downloadsorter@martynasxs.dev"
+    }
+  }
+}

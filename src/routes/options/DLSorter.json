@@ -1,0 +1,46 @@
+{
+  "DLSorter": [
+    {
+      "pattern": "",
+      "filePattern": "\\.stl$",
+      "dir": "3d_printing/",
+      "enabled": true
+    },
+    {
+      "pattern": "",
+      "filePattern": ".bin",
+      "dir": "bin_stuff/",
+      "enabled": true
+    },
+    {
+      "pattern": "(curseforge|modrinth)\\.com\\/(minecraft\\/)?(mc-mods|mod)",
+      "filePattern": "",
+      "dir": "minecraft/mods/",
+      "enabled": true
+    },
+    {
+      "pattern": "(curseforge|modrinth)\\.com\\/(minecraft\\/)?(resourcepack|texture-packs)",
+      "filePattern": "",
+      "dir": "minecraft/resourcepacks/",
+      "enabled": true
+    },
+    {
+      "pattern": "(curseforge|modrinth)\\.com\\/(minecraft\\/)?data-?packs?",
+      "filePattern": "\\.jar$",
+      "dir": "minecraft/global_datapacks/",
+      "enabled": true
+    },
+    {
+      "pattern": "(curseforge|modrinth)\\.com\\/(minecraft\\/)?shaders?",
+      "filePattern": "",
+      "dir": "minecraft/shaderpacks/",
+      "enabled": true
+    },
+    {
+      "pattern": "(curseforge|modrinth)\\.com\\/(minecraft\\/)?data-?packs?",
+      "filePattern": "",
+      "dir": "minecraft/datapacks/",
+      "enabled": true
+    }
+  ]
+}
