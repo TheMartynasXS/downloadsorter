@@ -1,6 +1,6 @@
 {
   "name": "DownloadSorter",
-  "version": "2.0",
+  "version": "2.1.0",
   "manifest_version": 3,
   "permissions": [
     "cookies",
@@ -12,6 +12,9 @@
     "scripting",
     "notifications"
   ],
+  "data_collection_permissions": {
+    "enabled": false
+  },
   "host_permissions": [
     "*://*/*"
   ],

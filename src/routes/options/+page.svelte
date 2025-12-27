@@ -35,9 +35,7 @@
 		editingRule = null;
 	}
 
-	async function handleSaveRule(event) {
-		const ruleData = event.detail;
-
+	async function handleSaveRule(ruleData) {
 		if (editingRule) {
 			// Update existing rule
 			const index = items.findIndex(r => r.id === editingRule.id);
